@@ -27,6 +27,13 @@ Statistical testing on the Capital Bikeshare dataset.
 - **Part B:** Demand vs. Weather independence (Chi-Square test).
 - **In-class:** Temperature vs. Apparent Temperature analysis.
 
+#### Lab 5: Hypothesis Testing with IPL Ball-by-Ball Data
+Statistical analysis and hypothesis testing on cricket match data.
+- **Part A:** Data organization (Parsing ball-by-ball and match info CSVs).
+- **Part B:** Powerplay EDA (Scoring, boundaries, and wickets).
+- **Part C:** Cricketing decisions (Two-proportion and Fisher exact tests for boundary/dismissal rates).
+- **In-class:** Toss choices, IPL vs WPL score comparison, and Death over performance analysis.
+
 ## Team
 - Kevin Kinsey S (EP23B027)
 - Madhav Tadepalli (EE23B040)
