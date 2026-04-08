@@ -1,0 +1,84 @@
+=== METADATA ===
+uci_id: 165
+name: Concrete Compressive Strength
+repository_url: https://archive.ics.uci.edu/dataset/165/concrete+compressive+strength
+data_url: https://archive.ics.uci.edu/static/public/165/data.csv
+abstract: Concrete is the most important material in civil engineering. The concrete compressive strength is a highly nonlinear function of age and ingredients. 
+area: Physics and Chemistry
+tasks:
+	- Regression
+characteristics:
+	- Multivariate
+num_instances: 1030
+num_features: 8
+feature_types:
+	- Real
+demographics:
+target_col:
+	- Concrete compressive strength
+index_col: None
+has_missing_values: no
+missing_values_symbol: None
+year_of_dataset_creation: 1998
+last_updated: Sun Feb 11 2024
+dataset_doi: 10.24432/C5PK67
+creators:
+	- I-Cheng Yeh
+intro_paper:
+	ID: 383
+	type: NATIVE
+	title: Modeling of strength of high-performance concrete using artificial neural networks
+	authors: I. Yeh
+	venue: Cement and Concrete Research, Vol. 28, No. 12
+	year: 1998
+	journal: None
+	DOI: 10.1016/S0008-8846(98)00165-3
+	URL: https://www.semanticscholar.org/paper/9310cae70452ea11465f338483e79cc36a68881c
+	sha: None
+	corpus: None
+	arxiv: None
+	mag: None
+	acl: None
+	pmid: None
+	pmcid: None
+additional_info:
+	summary: Number of instances 	1030
+Number of Attributes	9
+Attribute breakdown	8 quantitative input variables, and 1 quantitative output variable
+Missing Attribute Values	None 
+
+	purpose: None
+	funded_by: None
+	instances_represent: None
+	recommended_data_splits: None
+	sensitive_data: None
+	preprocessing_description: None
+	variable_info: Given are the variable name, variable type, the measurement unit and a brief description. The concrete compressive strength is the regression problem. The order of this listing corresponds to the order of numerals along the rows of the database. 
+
+Name -- Data Type -- Measurement -- Description
+
+Cement (component 1) -- quantitative -- kg in a m3 mixture -- Input Variable
+Blast Furnace Slag (component 2) -- quantitative -- kg in a m3 mixture -- Input Variable
+Fly Ash (component 3) -- quantitative  -- kg in a m3 mixture -- Input Variable
+Water  (component 4) -- quantitative  -- kg in a m3 mixture -- Input Variable
+Superplasticizer (component 5) -- quantitative -- kg in a m3 mixture -- Input Variable
+Coarse Aggregate  (component 6) -- quantitative -- kg in a m3 mixture -- Input Variable
+Fine Aggregate (component 7)	 -- quantitative  -- kg in a m3 mixture -- Input Variable
+Age -- quantitative  -- Day (1~365) -- Input Variable
+Concrete compressive strength -- quantitative -- MPa -- Output Variable
+
+
+	citation: None
+
+
+=== VARIABLES ===
+                            name     role        type demographic description   units missing_values
+0                         Cement  Feature  Continuous        None        None  kg/m^3             no
+1             Blast Furnace Slag  Feature     Integer        None        None  kg/m^3             no
+2                        Fly Ash  Feature  Continuous        None        None  kg/m^3             no
+3                          Water  Feature  Continuous        None        None  kg/m^3             no
+4               Superplasticizer  Feature  Continuous        None        None  kg/m^3             no
+5               Coarse Aggregate  Feature  Continuous        None        None  kg/m^3             no
+6                 Fine Aggregate  Feature  Continuous        None        None  kg/m^3             no
+7                            Age  Feature     Integer        None        None     day             no
+8  Concrete compressive strength   Target  Continuous        None        None     MPa             no
